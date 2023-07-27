@@ -1,3 +1,7 @@
+body {
+    background-color: #787878;
+}
+
 #minefield {
     position: absolute;
     left: 50%;
@@ -34,6 +38,12 @@
     top: 15%;
     background-color: black;
     color: red;
+}
+
+.flag {
+    left: 5%;
+    top: 5%;
+    background-color: gray;
 }
 
 .nothing {

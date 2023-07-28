@@ -8,8 +8,8 @@ body {
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    border-color: black;
-    border-style: solid;
+    /* border-color: black;
+    border-style: solid; */
     height: 400px;
     width: 400px;
 }
@@ -27,34 +27,25 @@ body {
     vertical-align: middle;
 }
 
-.floor {
-    left: 5%;
-    top: 5%;
-    background-color: gray;
-}
-
 .bomb {
-    left: 15%;
-    top: 15%;
     background-color: black;
     color: red;
 }
 
 .flag {
-    left: 5%;
-    top: 5%;
     background-color: gray;
+    color: blue;
 }
 
 .blank {
-    left: 25%;
-    top: 25%;
     background-color: lightgrey;
 }
 
 .number {
-    /* left: 35%;
-    top: 35%; */
     background-color: lightgrey;
     color: blue;
+}
+
+.floor {
+    background-color: gray;
 }

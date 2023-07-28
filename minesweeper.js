@@ -69,13 +69,12 @@ function showElement(element) {
 function toogleFlag(element) {
     if (element.classList.contains('floor')) {
         if (element.innerHTML == 'F') {
-            element.innerHTML = '';
-            element.style.color = 'black';
-            element.onclick = function() { showElement(element) };
+            element.innerHTML = minesweeper[element.id.replace('element:', '').split('/')];
+            element.childNodes[0].style.display = 'none';
+            element.classList.remove('flag');
         } else {
             element.innerHTML = 'F';
-            element.style.color = 'blue';
-            element.onclick = function() {};
+            element.classList.add('flag');
         }
     }
 }

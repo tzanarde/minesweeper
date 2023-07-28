@@ -32,11 +32,6 @@ body {
     color: red;
 }
 
-.flag {
-    background-color: gray;
-    color: blue;
-}
-
 .blank {
     background-color: lightgrey;
 }
@@ -48,4 +43,9 @@ body {
 
 .floor {
     background-color: gray;
+}
+
+.flag {
+    background-color: gray;
+    color: yellow;
 }
